@@ -1,7 +1,8 @@
+package javaPilha;
 
 //apenas para testar o tratamento de exceções
 public class Conta {
 
-    void deposita() {}
+    void deposita() throws MinhaExcecao{}
 
 }

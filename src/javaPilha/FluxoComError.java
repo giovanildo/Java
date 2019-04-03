@@ -1,3 +1,5 @@
+package javaPilha;
+
 public class FluxoComError {
 
 	public static void main(String[] args) {

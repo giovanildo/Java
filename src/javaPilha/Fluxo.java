@@ -1,10 +1,12 @@
+package javaPilha;
+
 public class Fluxo {
 
 	public static void main(String[] args) {
 		System.out.println("Ini do main");
 		try{
 		    metodo1();
-		} catch(ArithmeticException | NullPointerException | MinhaExcecao ex) {
+		} catch(Exception ex) {
 		    String msg = ex.getMessage();
 		    System.out.println("Exception " + msg);
 		    ex.printStackTrace();
