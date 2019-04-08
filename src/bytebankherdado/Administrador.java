@@ -1,3 +1,5 @@
+package bytebankherdado;
+
 
 public class Administrador extends Funcionario implements Autenticavel{
 

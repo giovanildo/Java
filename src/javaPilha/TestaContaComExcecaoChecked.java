@@ -1,8 +1,12 @@
 package javaPilha;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class TestaContaComExcecaoChecked {
 
 	public static void main(String[] args) {
+		
 		
 		Conta c = new Conta();
 		try {
