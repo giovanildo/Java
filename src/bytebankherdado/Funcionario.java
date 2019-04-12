@@ -1,3 +1,5 @@
+package bytebankherdado;
+
 
 //nao pode instanciar dessa classe, pq é abstrata
 public abstract class Funcionario {

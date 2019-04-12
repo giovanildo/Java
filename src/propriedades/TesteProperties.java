@@ -14,6 +14,15 @@ public class TesteProperties {
 		props.store(new FileWriter("config.ini"), "testando aqui");
 		
 		
+		
+		String login = props.getProperty("login");
+		String senha = props.getProperty("senha");
+		String servidor = props.getProperty("servidor");
+				 
+		System.out.println(login + " " + senha + " " + servidor);
+		
+		
+		
 	}
 
 }
