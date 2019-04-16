@@ -2,6 +2,7 @@ package encoding;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class TesteUnicodeEEncoding {
 
@@ -29,6 +30,7 @@ public class TesteUnicodeEEncoding {
 		encoding = "ascii";
 		bytes = s.getBytes(encoding);
 		System.out.println(bytes.length + " , " + encoding);
+		System.out.println(StandardCharsets.US_ASCII);
 	}
 
 }
